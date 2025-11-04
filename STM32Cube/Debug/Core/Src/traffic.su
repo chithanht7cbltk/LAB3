@@ -1,0 +1,10 @@
+traffic.c:10:6:clear_all_led	8	static
+traffic.c:21:6:red_on_vertical	8	static
+traffic.c:28:6:green_on_vertical	8	static
+traffic.c:35:6:yellow_on_vertical	8	static
+traffic.c:42:6:red_on_horizontal	8	static
+traffic.c:49:6:green_on_horizontal	8	static
+traffic.c:56:6:yellow_on_horizontal	8	static
+traffic.c:63:6:custom_red_mode	8	static
+traffic.c:74:6:custom_green_mode	8	static
+traffic.c:85:6:custom_yellow_mode	8	static

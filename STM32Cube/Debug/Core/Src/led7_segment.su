@@ -1,0 +1,9 @@
+led7_segment.c:23:6:display_number_vertical	24	static
+led7_segment.c:37:6:display_number_horizontal	24	static
+led7_segment.c:51:6:enable_horizontal	16	static
+led7_segment.c:65:6:enable_vertical	16	static
+led7_segment.c:79:6:clear_all_7seg	8	static
+led7_segment.c:86:6:update_7seg_horizontal	16	static
+led7_segment.c:103:6:update_7seg_vertical	16	static
+led7_segment.c:120:6:update_buffer_horizontal	4	static
+led7_segment.c:126:6:update_buffer_vertical	4	static
