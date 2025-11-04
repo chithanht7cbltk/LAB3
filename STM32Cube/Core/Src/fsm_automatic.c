@@ -2,7 +2,7 @@
  * fsm_automatic.c
  *
  *  Created on: Nov 4, 2025
- *      Author: HP
+ *      Author: cthanh
  */
 
 #include "fsm_automatic.h"

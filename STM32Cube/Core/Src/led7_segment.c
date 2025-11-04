@@ -2,7 +2,7 @@
  * led7_segment.c
  *
  *  Created on: Nov 4, 2025
- *      Author: HP
+ *      Author: cthanh
  */
 
 #include "led7_segment.h"

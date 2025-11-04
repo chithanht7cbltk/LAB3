@@ -68,6 +68,14 @@ void fsm_setting_run()
 				red_duration_tmp = 0;
 			setTimer(1, 10000);
 		}
+
+		// auto tăng liên tục khi giữ >1s (mỗi 0.5s)
+		if(isButtonLongPressed(2)){
+		    red_duration_tmp++;
+		    if(red_duration_tmp > 99)
+		    	red_duration_tmp = 0;
+		}
+
 		if (isButtonPressed(3) == 1)
 		{
 			red_duration = red_duration_tmp;
@@ -112,6 +120,14 @@ void fsm_setting_run()
 			if (green_duration_tmp > 99)
 				green_duration_tmp = 0;
 		}
+
+		// auto tăng liên tục khi giữ >1s (mỗi 0.5s)
+		if(isButtonLongPressed(2)){
+			green_duration_tmp++;
+			if(green_duration_tmp > 99)
+				green_duration_tmp = 0;
+		}
+
 		if (isButtonPressed(3) == 1)
 		{
 			green_duration = green_duration_tmp;
@@ -157,6 +173,14 @@ void fsm_setting_run()
 			if (yellow_duration_tmp > 99)
 				yellow_duration_tmp = 0;
 		}
+
+		// auto tăng liên tục khi giữ >1s (mỗi 0.5s)
+		if(isButtonLongPressed(2)){
+			yellow_duration_tmp++;
+			if(yellow_duration_tmp > 99)
+				yellow_duration_tmp = 0;
+		}
+
 		if (isButtonPressed(3) == 1)
 		{
 			yellow_duration = yellow_duration_tmp;
